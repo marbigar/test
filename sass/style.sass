@@ -1,0 +1,44 @@
+body
+    padding-bottom: 70px
+
+.controls
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    padding-bottom: 30px
+    &-name
+        margin: 0 20px
+        font-size: 20px
+    &-text
+        margin-left: 20px
+        border: 1px solid #adadad
+        border-radius: 5px
+        padding: 6px 20px
+
+.days-table
+    display: table
+    border-collapse: collapse
+    width: 100%
+    &__head
+        display: table-header-group
+    &__body
+        display: table-row-group
+    &__row
+        display: table-row
+    &__cell
+        display: table-cell
+        border: 1px solid #adadad
+        width: calc(100%/7)
+        height: 160px
+        color: #adadad
+        padding: 5px 10px
+        box-sizing: border-box
+        &.active
+            background: #f8f8f8
+
+.search
+    color: #adadad
+    margin-right: 5px
+
+.search-text
+    min-width: 300px
